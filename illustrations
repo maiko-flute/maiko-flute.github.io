@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>イラストのページ</title>
+    <link rel="stylesheet" href="cats.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+    </script>
+
+  </head>
+  <body>
+  <header>
+    <h1>ILLUSTRATIONS</h1>
+  </header>
+  <main>
+    <div class="slider">
+      <img src="img/beatles1.jpg"  width="200"  alt="">
+      <img src="img/illustrations1.jpg"  width="200"alt="">
+      <img src="img/illustrations2.jpg" width="200"  alt="">
+      <img src="img/yallosubmarine.jpg" width="200"  alt="">
+      <img src="img/illustrations3.jpg" width="200" alt="">
+      <img src="img/illustrations4.jpg" width="200"  alt="">
+      <img src="img/illustrations5.jpg" width="200"  alt="">
+      <img src="img/beatles2.jpg" width="200"  alt="">
+      <img src="img/derekandthedominos.jpg" width="200"  alt="">
+    </div>
+  </main>
+  <footer>
+    <h2><a href="index.html">topへ</a></h2>
+    <h3>LINEスタンプ発売中</h3>
+    <ul class="linestamps">
+      <li><a href="https://line.me/S/sticker/11268178">
+        <img src="https://creators-market-all.line-scdn.net/line-user-stickers-sticker-1556/sticker/15562809/main/9c4b5881fb2a1d227baf6094a5a67e965ef5cdef.png"
+        alt="mashroom"></a></li>
+      <li><a href="https://line.me/S/sticker/20336607">
+        <img src="https://creators-market-all.line-scdn.net/line-user-stickers-sticker-2774/sticker/27741120/main/fa5d3f0559799e2b1d72c62557ce42e3b8483fe6.png"
+        alt="変な生き物（文字入り）"></a></li>
+      <li><a href="https://line.me/S/sticker/20328221">
+        <img src="https://creators-market-all.line-scdn.net/line-user-stickers-sticker-2773/sticker/27737461/main/57fb585adcff548ed0dd13361a5a64804307b12b.png"
+        alt="変な生き物"></a></li>
+
+  </footer>
+  </body>
+</html>
