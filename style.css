@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+font-family: sans-serif;
+list-style-type: none;
+}
+header{
+  text-align: center;
+  background: white;
+  padding: 30px;
+}
+.list{
+  list-style-type: none;
+}
+h1{
+  padding-top:20px;
+}
+#photos{
+  text-align: center;
+}
+#drawings{
+  text-align: center;
+  padding: 40px;
+}
+h2{
+  font-size: 15px;
+}
+img{
+  width: 100%;
+}
+.content{
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-wrap{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card-list{
+  max-width: 350px;
+}
+
+footer {
+  background-color: #666699;
+  padding: 30px;
+}
+h3{
+color: white;
+font-size: 14px;
+font-family:"Meiryo UI";
+padding-top: 0px;
+padding-bottom: 10px;
+
+}
+
+
+.linestamps img{
+  width:120px;
+}
+.linestamps {
+  display: flex;
+  padding: 10px 30px;
+  list-style-type: none;
+
+
+}
