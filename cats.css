@@ -14,7 +14,7 @@ header h1{
 main{
   padding: 10px 460px ;
   @media screen and (max-width: 480px){
-  padding:10px 20px;
+  padding:0px 0px;
 }
 }
 footer {
